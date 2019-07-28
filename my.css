@@ -33,3 +33,71 @@
 #myUL li a:hover:not(.header) {
   background-color: #eee;
 }
+.my-app {
+    width: 100%;
+    height: auto;
+    }
+    .my-container {
+    position: relative;
+    font-family: Arial;
+    }	    
+    .my-text-block {
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 13px; 
+    font-weight: 400; 
+    font-family: 'arial', sans-serif;
+    line-height: 2; 
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    padding-right: 9px;
+    }
+    .w3-round-large{
+    border-radius:8px
+    }
+    .w3-button{
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+    }   
+    .w3-button:disabled{
+    cursor:not-allowed;
+    opacity:0.3
+    }
+    .w3-button{
+    border:none;
+    display:inline-block;
+    padding:6px 14px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    margin-bottom: 6px ;
+    margin-left: 6px
+    }
+    .w3-button:hover{
+    color:#000!important;
+    background-color:#ccc!important
+    }
+    .w3-white,.w3-hover-white:hover{
+    color:#000!important;
+    background-color:#fff!important
+    }
+    .w3-border{
+    border:1px solid #ccc!important
+    }
+    a {
+    text-decoration:none;
+    } 
+   
