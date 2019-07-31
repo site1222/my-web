@@ -1,3 +1,185 @@
+.button1 {
+background-color:inherit;
+  border-bottom: 1px solid #4CAF50;
+  color:green;
+  outline:none;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size:12px;
+  padding:0px 2px;
+}
+
+.button1:hover {
+	color:green;
+	}
+.button1:active {
+     color:green
+	 background-color:inherit;
+
+}
+
+.my-pages {
+	box-sizing: inherit; 
+	color: #4a4a4a; 
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size: 14px; 
+	line-height: 21px; 
+	padding: 0px;
+	margin: 0px auto; 
+	position: relative;
+	flex: 1 1 0px; 
+	height: auto !important;
+}
+#title-pages {
+	align-items: center; 
+	box-sizing: inherit; 
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: flex-start; 
+	margin-bottom: 1em;
+}
+.pagess ,#info-app {
+	-webkit-appearance: none; 
+	align-items: center; 
+	border-radius: 4px; 
+	border: 1px solid rgb(219, 219, 219);
+	box-sizing: inherit; 
+        color: #363636; 
+        cursor: pointer; 
+	display: inline-flex; 
+	font-size: 11px; 
+	justify-content: center; 
+	margin-bottom: 0.2rem; 
+	margin-right: 0.3rem; 
+	padding: 4px 0.55em; 
+	text-align: center; 
+	text-decoration: none; 
+	vertical-align: top; 
+	white-space: nowrap;
+}
+.my-conten {
+	box-sizing: inherit; 
+	color: inherit; 
+	margin-bottom: 1em; 
+	overflow: hidden;
+}
+#icon-app1 ,#icon-app2 {
+	box-sizing: inherit; 
+	float: left; 
+	font-size: 0.75rem; 
+	letter-spacing: 1px; 
+	margin: 0px 1rem 0px 0px; 
+	text-align: center; 
+	width: 90px;
+}
+#icon-app2 {
+	height: 90px; 
+	max-width: 100%;
+}
+.text-icon {
+	box-sizing: inherit; 
+	font-size: 0.75rem !important; 
+	padding: 0px;
+}
+.app-names {
+	box-sizing: inherit; 
+	padding-left: calc(90px + 1rem);
+ }
+.app-names-title {
+	 box-sizing: inherit; 
+	 font-size: 1.25rem; 
+	 line-height: 1.125; 
+	 margin: 0px 0px 0.8em; 
+	 padding: 0px;
+}
+.app-names1 {
+	 box-sizing: inherit; 
+	 cursor: pointer; 
+	 text-decoration: none;
+}
+.app-names2 {
+	box-sizing: inherit; 
+	color: rgb(50 , 115 , 220); 
+	font-size: 1rem; 
+	font-style: inherit; 
+	font-weight: 700;
+}
+.app-names3 {
+	box-sizing: inherit; 
+	font-style: inherit; 
+	font-weight: inherit;
+}
+.app-names4 {
+	box-sizing: inherit; 
+	color: rgb(74, 74, 74) !important; 
+	cursor: pointer; 
+	font-size: 0.75rem !important; 
+	text-decoration: none;
+}
+.app-names5 {
+	box-sizing: inherit; 
+	font-size: 0.75rem !important; 
+	font-style: inherit; 
+	font-weight: inherit;
+}
+#more {
+	display:none;	
+}
+#my-scroll {
+	box-sizing: inherit; 
+	display: flex; 
+	overflow-x: scroll
+ }
+ .shot img{
+	 box-sizing: inherit; 
+	 height: auto; 
+	 max-height: 150px; 
+	 max-width: none; 
+	 min-height: 150px;
+	}
+.shot {
+	box-sizing: inherit; 
+	cursor: pointer; 
+	margin-right: 1px; 
+	text-decoration: none;
+}
+.tab {
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+}
+
+.tab button {
+  display: inline-block;
+  background-color: inherit;
+  color: black;
+  border:none;
+  outline:none;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
+  font-size: 9px;
+  padding:3px 4px 0px 4px;
+  text-decoration: none;
+}
+
+.tab a:hover {
+  
+}
+.tab button.active {
+  background-color:#ddd;
+  color:black;
+  border: 1px solid #ccc;
+  border-bottom:none;
+  border-radius:3px 3px 0px 0px;
+}
+.tabcontent {
+  display: none;
+  border:1px solid #ccc;
+  border-top: none ;
+}
 * {
   box-sizing: border-box;
 }
@@ -43,7 +225,7 @@
     }	    
     .my-text-block {
     position: absolute;
-    bottom: 4px;
+    bottom: 0px;
     left: 0px;
     display: block;
     box-sizing: border-box;
@@ -74,7 +256,7 @@
     .w3-button{
     border:none;
     display:inline-block;
-    padding:6px 14px;
+    padding:2px 10px;
     vertical-align:middle;
     overflow:hidden;
     text-decoration:none;
@@ -83,8 +265,8 @@
     text-align:center;
     cursor:pointer;
     white-space:nowrap;
-    margin-bottom: 6px ;
-    margin-left: 6px
+    margin-bottom: 4px ;
+    margin-left: 4px
     }
     .w3-button:hover{
     color:#000!important;
@@ -92,12 +274,11 @@
     }
     .w3-white,.w3-hover-white:hover{
     color:#000!important;
-    background-color:#fff!important
+    background-color:#cccccc!important
     }
     .w3-border{
-    border:1px solid #ccc!important
+    border:1px solid #b3b3b3!important
     }
     a {
     text-decoration:none;
-    } 
-   
+    }
