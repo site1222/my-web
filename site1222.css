@@ -1,4 +1,7 @@
 /* ---> music info start <--- */
+.table-music {
+table-layout:auto;
+}
 table, th, td {
   border: 1px solid #ddd;
   border-collapse: collapse;
